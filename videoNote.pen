@@ -81833,7 +81833,7 @@
                                       "type": "frame",
                                       "id": "kTLmr",
                                       "layoutPosition": "absolute",
-                                      "x": 237,
+                                      "x": 277,
                                       "y": 0,
                                       "name": "0101-card2-scrollbar-滚动条",
                                       "width": 3,
@@ -81948,7 +81948,14 @@
                           "name": "Btn总结-激活",
                           "width": "fill_container",
                           "height": 64,
-                          "fill": "#fce7f3",
+                          "fill": [
+                            {
+                              "type": "color",
+                              "color": "#fce7f3",
+                              "enabled": false
+                            },
+                            "#00000033"
+                          ],
                           "cornerRadius": 10,
                           "layout": "vertical",
                           "gap": 4,
